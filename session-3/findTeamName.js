@@ -6,8 +6,8 @@ function findTeamName(name1,name2){
     return str + str2
 }
 
-if(findTeamName(Anu,Rao) !== "AR"){
-    console.log("we expected RK")
+if(findTeamName("Anud","Rao") !== "AR"){
+    console.log("we expected AR")
 }
 else{
     console.log("AR")
